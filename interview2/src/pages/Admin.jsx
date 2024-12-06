@@ -1,4 +1,5 @@
-function CrmAdmin () {
+
+function Admin () {
     return(
         <div>
             <h1 className="admin">CRM ADMIN</h1>
@@ -6,4 +7,4 @@ function CrmAdmin () {
     )
 }
 
-export default CrmAdmin;
+export default Admin;

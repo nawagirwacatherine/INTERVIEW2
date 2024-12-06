@@ -1,0 +1,29 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #d1e1df;
+  min-height: 100vh;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.admin {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #0a1f0b;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.search {
+  background-color: #181717;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #1d0a0a;
+}
+
+
+
