@@ -1,8 +1,9 @@
-function CrmDashboard () {
+function CrmDashBoard () {
     return(
-        <div><h1>CRM Admin Dashboard</h1>
+        <div className="dash-board">
+            <h1>CRM Admin Dashboard</h1>
         </div>
     )
 }
 
-export default CrmDashboard ;
+export default CrmDashBoard ;

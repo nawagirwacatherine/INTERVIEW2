@@ -1,6 +1,7 @@
 function UpComing () {
     return(
-        <div><h1>Upcoming Events</h1>
+        <div className="up-coming">
+            <h1>Upcoming Events</h1>
         </div>
     
     )

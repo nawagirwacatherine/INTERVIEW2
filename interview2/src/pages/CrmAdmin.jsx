@@ -1,7 +1,7 @@
 function CrmAdmin () {
     return(
         <div>
-            <h1>CRM ADMIN</h1>
+            <h1 className="admin">CRM ADMIN</h1>
             </div>
     )
 }
