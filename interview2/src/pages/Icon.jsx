@@ -2,7 +2,7 @@ function Icon  () {
 
     return(
     
-  <div className="icon">
+  <div id="icon">
     <h1>
     search
     </h1>

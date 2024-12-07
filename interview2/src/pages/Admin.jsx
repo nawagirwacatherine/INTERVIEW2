@@ -9,28 +9,43 @@ function Admin () {
     return(
         <>
         <div className="admin">
+        <div className="vertical">
 
-    
+       
         <SideBar/>
-       <section>
+        </div>
+        <div className="first">
+       
+       <div className="horizontal-container">
       
         <Icon/>
       
-       
+       </div>
+
+       <div className="vertical-container">
        
         <AdminPart/>
-      
-       <div className="events">
-        <EventsAndProjects/>
-       
-       
-        <Utilities />
-        </div>
-        </section>
-        </div>
+
+       </div>
     
-        
-        </>
+       <div className="horizontal">
+               <div className="utilities">
+ <Utilities name='Active client'/>
+ <Utilities name='Active Admin'/>
+ <Utilities name=' Total expenses'/>
+ <Utilities name='Running Projects'/>
+
+ </div>
+   <div>
+        <EventsAndProjects name= 'Upcoming Events'/>
+        <EventsAndProjects name ='Running Projects'/>
+        </div>
+        </div>
+        </div>
+        </div>
+</>
+
+
     )
 }
 

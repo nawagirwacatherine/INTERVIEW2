@@ -1,8 +1,8 @@
-function EventsAndProjects () {
+function EventsAndProjects ({name}) {
 
     return(
-  <div>
-    <h1>EventsAndProjects </h1>
+  <div className="events">
+   <h1>{name}</h1>
     </div>
    
     )
