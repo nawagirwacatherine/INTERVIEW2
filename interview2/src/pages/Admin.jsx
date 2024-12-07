@@ -20,11 +20,12 @@ function Admin () {
        
         <AdminPart/>
       
-       
+       <div className="events">
         <EventsAndProjects/>
        
        
         <Utilities />
+        </div>
         </section>
         </div>
     
