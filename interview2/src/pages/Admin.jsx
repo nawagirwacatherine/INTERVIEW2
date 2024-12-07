@@ -1,12 +1,34 @@
 
 import SideBar from "./SideBar"
+import Icon from "./Icon"
+import AdminPart from "./AdminPart"
+import EventsAndProjects from "./EventsAndProjects"
+import Utilities from "./Utilities"
 
 function Admin () {
     return(
         <>
-        <SideBar/>
+        <div className="admin">
+
     
-  
+        <SideBar/>
+       <section>
+      
+        <Icon/>
+      
+       
+       
+        <AdminPart/>
+      
+       
+        <EventsAndProjects/>
+       
+       
+        <Utilities />
+        </section>
+        </div>
+    
+        
         </>
     )
 }

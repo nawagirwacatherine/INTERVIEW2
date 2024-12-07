@@ -1,29 +1,49 @@
-.App {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #d1e1df;
-  min-height: 100vh;
-  padding: 20px;
-  border-radius: 5px;
-}
-
 .admin {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  background-color: #0a1f0b;
-  color: white;
-  padding: 20px;
-  border-radius: 5px;
+  min-height: 800px;
+  font-size: 10pt;
+  display: flex;
+    align-items: center;
+    color: rgb(242, 244, 242);
+    background-color:  rgb(228, 223, 217);
+    
+ 
 }
 
-.search {
-  background-color: #181717;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 5px;
-  color: #1d0a0a;
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: ;
+  width: 100%;
+  background-color: rgb(189, 241, 243);
+  
 }
+
+div {
+  border: 1px solid rgb(72, 65, 65);
+  ;
+  
+
+}
+
+.side-bar {
+  padding:0;
+  height: 800px;
+  align-self: flex-start;
+  background-color: rgb(40, 34, 34);
+  align-items: flex-end;
+}
+.icon {
+  background-color: rgb(52, 49, 49);
+}
+.dash-board{
+  align-self: center;
+  width: 100%;
+}
+
+
+
+
+
 
 
 
