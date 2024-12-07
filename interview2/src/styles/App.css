@@ -6,7 +6,7 @@
 }
 
 .container{
-    margin: 0;
+    margin: 3px;
     flex-direction: column;
     background-color: azure;
     align-items: flex-start;
@@ -32,17 +32,13 @@
 }
 #icon {
     padding: 2px;
-    background-color: rgb(53, 60, 67);
+    background-color: rgb(62, 71, 80);
    align-items: flex-start;
 }
 
 .dash-board{
-    background-color: aliceblue;
-}
+    background-color: rgb(209, 225, 227);
 
-.events {
-
-    background-color: aliceblue;
 }
 
 .utilities {
@@ -63,3 +59,23 @@
 
 }
 
+.events {
+    margin: 1px;
+    gap: 5px;
+    display: flex;
+    /* justify-content: space-around;
+    font-size:small;
+    align-self: flex-start; */
+    
+    justify-content: space-between;
+    align-content: normal;
+}
+
+.event {
+    background-color: rgb(43, 45, 45);
+    border-radius: 3px;
+    align-self: flex-start;
+    color: rgb(248, 249, 250);
+    width: 50%;
+    height: 10%;
+}

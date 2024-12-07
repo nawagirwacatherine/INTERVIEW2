@@ -1,7 +1,7 @@
 function EventsAndProjects ({name}) {
 
     return(
-  <div className="events">
+  <div className="event">
    <h1>{name}</h1>
     </div>
    
