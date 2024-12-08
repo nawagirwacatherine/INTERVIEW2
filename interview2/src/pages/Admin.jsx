@@ -17,19 +17,29 @@ function Admin () {
         </div>
         <div className="first">
        
-       <div className="horizontal-container">
+       {/* <div className="horizontal-container">
       
         <Icon/>
       
-       </div>
+       </div> */}
 
-       <div className="vertical-container">
+       {/* <div className="vertical-container">
        
         <AdminPart/>
 
+       </div> */}
+
+<div className="horizontal-container">
+      
+      <Icon/>
+    
+     </div>
+     <div  className="vertical-container">
+       <AdminPart/>
        </div>
     
-       <div className="horizontal">
+       {/* <div className="horizontal"> */}
+        
                <div className="utilities">
  <Utilities name='Active client'/>
  <Utilities name='Active Admin'/>
@@ -37,6 +47,7 @@ function Admin () {
  <Utilities name='Running Projects'/>
 
  </div>
+ <div className="horizontal">
    <div className="events">
         <EventsAndProjects name= 'Upcoming Events'/>
         <EventsAndProjects name ='Running Projects'/>

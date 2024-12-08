@@ -1,21 +1,27 @@
 .admin {
-    margin: 0;
-    background-color:aliceblue;
+    padding: 60px;
+    margin: 1px;
+    background-color:rgb(49, 51, 52);
     display: flex;
+    height:100%;
     
 }
 
-.container{
+/* .container{
     margin: 3px;
     flex-direction: column;
     background-color: azure;
     align-items: flex-start;
-}
+} */
 
 .first{
     margin: 0;
     flex-direction: column;
     width: 100%;
+    justify-content: center;
+   align-content: normal;
+   
+   
     
    
 }
@@ -31,23 +37,38 @@
 
 }
 #icon {
-    padding: 2px;
-    background-color: rgb(62, 71, 80);
-   align-items: flex-start;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(77, 96, 115);
+   
+   
 }
 
-.dash-board{
+.horizontal {
+    background-color:rgb(153, 177, 177); 
+    align-items: flex-start;
+   
+}
+.vertical-container{
+    display: flex-start;
+    background-color: rgb(209, 225, 227);
+    
+}
+
+/* .dash-board{
     background-color: rgb(209, 225, 227);
 
-}
+} */
 
 .utilities {
-    margin: 1px;
+    /* margin: 1px; */
+    padding: 10px;
     gap: 5px;
     display: flex;
     justify-content: space-around;
     font-size:small;
     align-self: flex-start;
+   
 
 }
 
@@ -60,22 +81,38 @@
 }
 
 .events {
-    margin: 1px;
+    /* margin: 1px; */
     gap: 5px;
     display: flex;
-    /* justify-content: space-around;
-    font-size:small;
-    align-self: flex-start; */
     
     justify-content: space-between;
     align-content: normal;
 }
 
 .event {
-    background-color: rgb(43, 45, 45);
+    background-color: rgb(89, 114, 114);
     border-radius: 3px;
     align-self: flex-start;
-    color: rgb(248, 249, 250);
+    color: rgb(9, 9, 9);
     width: 50%;
     height: 10%;
+}
+
+.items {
+    display: flex;
+    gap: 5px;
+    /* margin: 1px; */
+    justify-content: space-between;
+    align-content: normal;
+    
+   
+}
+
+.item {
+    background-color: rgb(196, 221, 221);
+    border-radius: 3px;
+    align-self: flex-start;
+    color: rgb(14, 14, 15);
+    width: 50%;
+    height: 500px;
 }
