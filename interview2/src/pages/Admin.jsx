@@ -13,7 +13,8 @@ function Admin () {
         <div className="vertical">
 
        
-        <SideBar/>
+        <SideBar name= "CRM"
+        description = "ADMIN"/>
         </div>
         <div className="first">
        
@@ -31,11 +32,11 @@ function Admin () {
 
 <div className="horizontal-container">
       
-      <Icon/>
+      <Icon name = 'search'/>
     
      </div>
      <div  className="vertical-container">
-       <AdminPart/>
+       <AdminPart name='CRM Admin Dashboard' description='very detailed and featured Admin'/>
        </div>
     
        {/* <div className="horizontal"> */}

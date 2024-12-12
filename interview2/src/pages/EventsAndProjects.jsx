@@ -1,8 +1,8 @@
-function EventsAndProjects ({name}) {
+function EventsAndProjects (prop) {
 
     return(
   <div className="event">
-   <h1>{name}</h1>
+   <h1>{prop.name}</h1>
     </div>
    
     )

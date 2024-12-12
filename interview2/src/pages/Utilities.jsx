@@ -1,9 +1,9 @@
-function Utilities  ({name}) {
+function Utilities  (prop) {
 
     return(
 
     <div className="utility">
- <h1>{name}</h1>
+ <h1>{prop.name}</h1>
 
     </div>
   

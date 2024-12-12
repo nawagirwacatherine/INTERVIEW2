@@ -1,10 +1,10 @@
-function Icon  () {
+function Icon  (prop) {
 
     return(
     
   <div id="icon">
     <h1>
-    search
+  {prop.name}
     </h1>
     </div>
   

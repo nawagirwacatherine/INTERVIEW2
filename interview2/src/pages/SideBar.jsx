@@ -1,9 +1,10 @@
-function SideBar () {
+function SideBar (prop) {
 
     return(
       
   <div className="side-bar">
-    <h1>CRM Dashboard</h1>
+    <h1>{prop.name}</h1>
+    <p>{prop.description}</p>
     </div>
    
     )
