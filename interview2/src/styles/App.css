@@ -63,6 +63,7 @@
 }
 
 .dash-board{
+    padding: 2px;
      border-bottom: 2px solid rgb(200, 200, 232);
     background-color: rgb(209, 225, 227);
 
@@ -81,6 +82,7 @@
 }
 
 .utility {
+    padding: 25px;
     background-color: rgb(55, 161, 142);
     border-radius: 3px;
     align-self: flex-start;
@@ -98,12 +100,11 @@
 }
 
 .event {
-    background-color: rgb(89, 114, 114);
-    border-radius: 3px;
-    align-self: flex-start;
+    padding: 5px;
+    background-color:  rgb(213, 236, 239);
     color: rgb(9, 9, 9);
     width: 50%;
-    height: 10%;
+ 
 }
 
 .items {
@@ -123,4 +124,12 @@
     color: rgb(14, 14, 15);
     width: 50%;
     height: 500px;
+}
+
+h1 {
+    font-size: smaller;
+}
+
+p{
+    font-size: x-small;
 }
