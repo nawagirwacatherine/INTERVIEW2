@@ -1,10 +1,10 @@
-function AdminPart () {
+function AdminPart (prop) {
 
     return(
      
   <div className="dash-board">
-    <h1>CRM Admin Dashboard</h1>
-    <p>very detailed and featured Admin</p>
+    <h1>{prop.name}</h1>
+    <p>{prop.description}</p>
    
     </div>
    
