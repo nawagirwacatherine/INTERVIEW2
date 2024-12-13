@@ -17,18 +17,6 @@ function Admin () {
         description = "ADMIN"/>
         </div>
         <div className="first">
-       
-       {/* <div className="horizontal-container">
-      
-        <Icon/>
-      
-       </div> */}
-
-       {/* <div className="vertical-container">
-       
-        <AdminPart/>
-
-       </div> */}
 
 <div className="horizontal-container">
       
@@ -39,7 +27,7 @@ function Admin () {
        <AdminPart name='CRM Admin Dashboard' description='very detailed and featured Admin'/>
        </div>
     
-       {/* <div className="horizontal"> */}
+       <div className="horizontal1">
         
                <div className="utilities">
  <Utilities name='Active client'/>
@@ -49,19 +37,20 @@ function Admin () {
 
  </div>
  <div className="horizontal">
-   <div className="events">
+
         <EventsAndProjects name= 'Upcoming Events'/>
         <EventsAndProjects name ='Running Projects'/>
-        </div>
-        </div>
+        
 
         <div className="items">
            <Items />
            <Items />
-           
+           </div>
+           </div>
+           </div>
         </div>
         </div>
-        </div>
+      
 </>
 
 
