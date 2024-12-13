@@ -37,15 +37,12 @@ function Admin () {
 
  </div>
  <div className="horizontal">
-
         <EventsAndProjects name= 'Upcoming Events'/>
         <EventsAndProjects name ='Running Projects'/>
-        
 
-        <div className="items">
+        
            <Items />
            <Items />
-           </div>
            </div>
            </div>
         </div>

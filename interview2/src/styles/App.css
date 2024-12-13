@@ -54,8 +54,9 @@
 .horizontal {
     margin: 10px;
     width: 100%;
-    /* background-color:rgb(153, 177, 177);  */
-    /* align-items: flex-start; */
+    height: 600px;
+    background-color:rgb(203, 219, 219); 
+    align-items: flex-start;
     padding: 10px;
     gap: 20px;
     display: flex;
@@ -101,39 +102,26 @@
 
 }
 
-.events {
-   gap: 25px;
-    display: flex;
-    padding: 15px;
-    justify-content: space-between;
-    align-content: normal;
-}
-
 .event {
-
+    margin: 0;
+   padding-top: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+    font-size:small;
+   align-items: center;
     background-color:  rgb(213, 236, 239);
-    color: rgb(9, 9, 9);
-    width: 50%;
- 
 }
 
-.items {
+.item {
     padding: 15px;
     display: flex;
     justify-content: space-around;
     font-size:small;
     align-self: flex-start;
+    background-color: rgb(196, 221, 221);
     
    
-}
-
-.item {
-    background-color: rgb(196, 221, 221);
-    border-radius: 3px;
-    align-self: flex-start;
-    color: rgb(14, 14, 15);
-    width: 50%;
-    height: 650px;
 }
 
 h1 {
